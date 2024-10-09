@@ -1,0 +1,10 @@
+create database managementsystem;
+use managementsystem;
+create table employee(employeeid int, employeename varchar(20),employeesalary int,designation varchar(20),employeepfamount float,exprience int);
+insert into employee values(1,'bhuvana',30000,'pudukkottai',78.90,5);
+insert into employee values(2,'luga',40000,'pudukkottai',45.90,5);
+insert into employee values(3,'riswana',50000,'kumbakonam',35.80,6);
+insert into employee values(4,'jasmine',50000,'kumbakonam',45.90,5);
+insert into employee values(5,'setha',50000,'chennai',60.99,6);
+insert into employee values(6,'jeeva',50000,'trichy',70.55,9);
+select *from employee;
